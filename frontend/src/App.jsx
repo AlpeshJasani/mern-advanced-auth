@@ -116,7 +116,11 @@ function App() {
 
                 <Route
                     path="/reset-password/:token"
-                    element={<ResetPasswordPage />}
+                    element={
+                        <RedirectAuthenticatedUser>
+                            <ResetPasswordPage />
+                        </RedirectAuthenticatedUser>
+                    }
                 />
                 {/* catch all routes */}
                 <Route path="*" element={<Navigate to="/" replace />} />
