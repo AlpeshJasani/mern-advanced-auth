@@ -1,4 +1,4 @@
-<h1 align="center">Advanced Auth 🔒 </h1>
+<h1 align="center">MERN Advanced Auth 🔒 </h1>
 
 ### Live : https://mern-advanced-auth-qiff.onrender.com/
 
